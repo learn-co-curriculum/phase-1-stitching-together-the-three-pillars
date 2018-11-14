@@ -9,13 +9,15 @@
 
 ## Introduction
 
-Knowing what web programming is and how its elements work together is an
-essential first step, but after you've got the fundamentals, you'll really want
-to see it in action. The good news is, you probably already have. You most
-likely have dozens of web interactions every day that rely on JavaScript to
-send, collect and change information. Even if it's something as simple as
-clicking an empty heart on a social media post to "favorite" it and seeing the
-heart turn red.
+Knowing what web programming is and how its elements work together conceptually
+is an essential first step. But in order to help orient our upcoming lessons,
+let's see it in action. In this lesson we've provided you a simple social media
+application called "Simple Liker." You'll see several posts which can be "liked"
+by clicking on the heart...well, they could be if the critical code hadn't
+been commented out. This lesson will guide you in uncommenting the critical
+code so that you restore the "like" functionality. In subsequent lessons, you'll
+learn the skills needd to create the pieces that you'll stitch together in this
+lesson.
 
 ### Identify the Three Essential Pillars of Front-End Web Programming
 

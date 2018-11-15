@@ -52,21 +52,21 @@ Open up your `demo.js` file and take a look at everything there. Find the
 comments that begin with "Step 1." Follow the instructions there to un-comment
 the code that locates the page element we want — in this case, the heart.
 
-![demostration of un-commenting step one][three-pillars-example-working]
+![demonstration of un-commenting step one][three-pillars-example-comment-step-one]
 
 ### Cause a Change to Given Code So That Server-Side Behavior Is Stubbed in
 
 Next, in your `demo.js` file, find the comments describing Step 2, which sets up
 the mock server communication (our third pillar):
 
-![demostration of un-commenting step two][three-pillars-example-comment-step-two]
+![demonstration of un-commenting step two][three-pillars-example-comment-step-two]
 
 ### Cause a Change to Given Code So That Event Listening Has an Effect
 
 Now, find Step 3 in the commented code. It's time to bring in the second pillar,
 events:
 
-![demostration of un-commenting step three][three-pillars-example-comment-step-three]
+![demonstration of un-commenting step three][three-pillars-example-comment-step-three]
 
 We've activated all the parts of our code that stitch in the three pillars of
 front-end web programming. Let's go back to your browser and see what Simple

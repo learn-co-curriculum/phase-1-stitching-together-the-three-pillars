@@ -4,8 +4,8 @@
 
 - Identify the three essential pillars of front-end web programming
 - Cause a change to given code so that DOM updating effect is seen
-- Cause a change to given code so that event listening has an effect
 - Cause a change to given code so that server-side behavior is stubbed in
+- Cause a change to given code so that event listening has an effect
 
 ## Introduction
 
@@ -33,25 +33,55 @@ see how it works by walking through some code.
 
 ### Cause a Change to Given Code So That DOM Updating Effect Is Seen
 
-- instructions about how to change the code
-- animated gif illustrating the desired change
+Meet our app, Simple Liker! It demos the favoriting action we've talked about
+and alerts you to what is happening each step of the process. When all is
+working as it should, the action looks like this:
 
-### Cause a Change to Given Code So That Event Listening Has an Effect
+![working example of favoriting a post][three-pillars-example-working]
 
-- instructions about how to change the code
-- animated gif illustrating the desired change
+Go ahead and open up `index.html` in your browser and give the heart a click.
+Your experience will look something like this:
+
+![non-working example of favoriting a post][three-pillars-example-not-working]
+
+... which is, nothing happens. That's because we haven't switched on the
+working code yet. We're going to go through, step by step, find the code that
+makes each step work and demo it to see how it looks in the browser.
+
+Open up your `demo.js` file and take a look at everything there. Find the
+comments that begin with "Step 1." Follow the instructions there to un-comment
+the code that locates the page element we want — in this case, the heart.
+
+![demostration of un-commenting step one][three-pillars-example-working]
 
 ### Cause a Change to Given Code So That Server-Side Behavior Is Stubbed in
 
-- instructions about how to change the code
-- animated gif illustrating the desired change
+Next, in your `demo.js` file, find the comments describing Step 2, which sets up
+the mock server communication (our third pillar):
+
+![demostration of un-commenting step two][three-pillars-example-comment-step-two]
+
+### Cause a Change to Given Code So That Event Listening Has an Effect
+
+Now, find Step 3 in the commented code. It's time to bring in the second pillar,
+events:
+
+![demostration of un-commenting step three][three-pillars-example-comment-step-three]
+
+We've activated all the parts of our code that stitch in the three pillars of
+front-end web programming. Let's go back to your browser and see what Simple
+Liker looks like in action.
+
+![working example of favoriting a post][three-pillars-example-working]
 
 ## Conclusion
 
-We're starting to see how the pieces work together now. Now, we're ready to dive
+We're starting to see how the pieces work together now! Now we're ready to dive
 into the individual pillars and learn more about how each function. First, we
 take on manipulating the DOM.
 
-## Resources
-
-- "Three Pillars of Web Programming" reference card
+[three-pillars-example-working]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-02.gif
+[three-pillars-example-not-working]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-01.gif
+[three-pillars-example-comment-step-one]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-03.gif
+[three-pillars-example-comment-step-two]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-04.gif
+[three-pillars-example-comment-step-three]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-05.gif

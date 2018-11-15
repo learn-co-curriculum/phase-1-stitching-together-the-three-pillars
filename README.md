@@ -13,7 +13,7 @@ Knowing what web programming is and how its elements work together conceptually
 is an essential first step. But in order to help orient our upcoming lessons,
 let's see it in action. In this lesson we've provided you a simple social media
 application called "Simple Liker." You'll see several posts which can be "liked"
-by clicking on the heart...well, they could be if the critical code hadn't
+by clicking on the heart...well, they _could_ be if the critical code hadn't
 been commented out. This lesson will guide you in uncommenting the critical
 code so that you restore the "like" functionality. In subsequent lessons, you'll
 learn the skills needd to create the pieces that you'll stitch together in this

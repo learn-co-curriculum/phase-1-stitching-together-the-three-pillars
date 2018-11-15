@@ -59,7 +59,7 @@ the code that locates the page element we want — in this case, the heart.
 Next, in your `demo.js` file, find the comments describing Step 2, which sets up
 the mock server communication (our third pillar):
 
-![demonstration of un-commenting step one][three-pillars-example-comment-step-two]
+![demonstration of un-commenting step two][three-pillars-example-comment-step-two]
 
 ### Cause a Change to Given Code So That Event Listening Has an Effect
 

@@ -85,3 +85,5 @@ take on manipulating the DOM.
 [three-pillars-example-comment-step-one]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-03.gif
 [three-pillars-example-comment-step-two]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-04.gif
 [three-pillars-example-comment-step-three]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-05.gif
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/fewpjs-stitching-together-the-three-pillars'>Stitching Together the Three Pillars</a> on Learn.co and start learning to code for free.</p>

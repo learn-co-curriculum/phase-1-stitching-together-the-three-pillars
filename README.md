@@ -40,6 +40,11 @@ working as it should, the action looks like this:
 ![working example of favoriting a post][three-pillars-example-working]
 
 Go ahead and open up `index.html` in your browser and give the heart a click.
+A fast way to do this is to use the `open` command in the command-line
+environment. From within the directory where this README lives, invoke: `open
+index.html`. If that doesn't work, navigate to the directory where this README
+is located, and open the file.
+
 Your experience will look something like this:
 
 ![non-working example of favoriting a post][three-pillars-example-not-working]

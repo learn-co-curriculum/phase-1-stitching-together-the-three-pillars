@@ -19,6 +19,12 @@ code so that you restore the "like" functionality. In subsequent lessons, you'll
 learn the skills needed to create the pieces that you'll stitch together in this
 lesson.
 
+Although this code-along is structured as a lab, you don't need to do anything
+to get the tests passing. In fact, if you run the one test, you should see that
+it's already passing. Instead, you just need to follow along with the
+instructions and pay attention to how the different parts of the code are
+working together to create the desired functionality.
+
 ### Identify the Three Essential Pillars of Front-End Web Programming
 
 We've introduced our three essential pillars of front-end web programming:

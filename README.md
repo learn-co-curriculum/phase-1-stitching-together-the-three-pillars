@@ -29,9 +29,9 @@ working together to create the desired functionality.
 
 We've introduced our three essential pillars of front-end web programming:
 
-  - Manipulating the Document Object Model (DOM)
-  - Recognizing JS events
-  - Communication with the server
+- Manipulating the Document Object Model (DOM)
+- Recognizing JS events
+- Communication with the server
 
 We also described the interaction that we want to make: "favoriting" an item on
 social media to turn an empty heart to red. Now, let's pull it all together and

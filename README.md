@@ -31,7 +31,7 @@ We've introduced our three essential pillars of front-end web programming:
 
 - Manipulating the Document Object Model (DOM)
 - Recognizing JS events
-- Communication with the server
+- Communicating with the server
 
 We also described the interaction that we want to make: "favoriting" an item on
 social media to turn an empty heart to red. Now, let's pull it all together and
@@ -45,11 +45,12 @@ working as it should, the action looks like this:
 
 ![working example of favoriting a post][three-pillars-example-working]
 
-Go ahead and open up `index.html` in your browser and give the heart a click.
-A fast way to do this is to use the `open` command in the command-line
-environment. From within the directory where this README lives, invoke: `open
-index.html`. If that doesn't work, navigate to the directory where this README
-is located, and open the file.
+Go ahead and open up `index.html` in your browser. To do this, make sure you're
+in the directory where this README lives in your terminal. If you're on a Mac,
+run `open index.html` and if you're using Windows, run `explorer.exe index.html`. If
+that doesn't work, you can open the file directly from Chrome. Choose `Open
+file...` from the `File` menu, navigate to the directory where this README is
+located, and open the file.
 
 Your experience will look something like this:
 
@@ -88,7 +89,7 @@ Liker looks like in action.
 ## Conclusion
 
 We're starting to see how the pieces work together now! Now we're ready to dive
-into the individual pillars and learn more about how each function. First, we
+into the individual pillars and learn more about how each one functions. First, we
 take on manipulating the DOM.
 
 [three-pillars-example-working]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-02.gif

@@ -1,4 +1,4 @@
-// We use this code, known as Objects, to control toggling like / unlike status
+// We use the Objects below to control toggling like / unlike status
 
 const glyphStates = {
   "♡": "♥",
@@ -10,10 +10,11 @@ const colorStates = {
   "": "red"
 };
 
-// STEP 1: This code is what lets JavaScript find the elements that we want to make clickable.
-// Without JavaScript, clicking on these heart shapes does nothing. Uncomment
-// this code and refresh the demo page. Once you refresh, you can open your console
-// and verify that the articleHearts variable  contains a nodeList with five elements.
+// STEP 1: The line of code below is what lets JavaScript find the elements that
+// we want to make clickable. Without JavaScript, clicking on these heart shapes
+// does nothing. Uncomment the code and refresh the demo page. Once you refresh, 
+// you can use the console to verify that the articleHearts variable contains a 
+// nodeList with five elements.
 
 // const articleHearts = document.querySelectorAll(".like-glyph");
 
@@ -22,9 +23,9 @@ function likeCallback(e) {
   mimicServerCall()
     .then(function(serverMessage){
       // STEP 2: Uncomment the 3 lines after the alert.
-      // We'll use Pillar 1 (DOM Manipulation) to update the screen and
-      // mimic Pillar 3 (Server Communication) to only update the screen if the
-      // sending of information to the server succeeds.
+      // Here we're using Pillar 1 (DOM Manipulation) to update the screen and
+      // mimicking Pillar 3 (Server Communication) to only update the screen if
+      // the sending of information to the server succeeds.
       alert("You notified the server!");
       // alert(serverMessage);
       // heart.innerText = glyphStates[heart.innerText];
@@ -36,9 +37,8 @@ function likeCallback(e) {
 }
 
 // STEP 3: In order for the call to the server and the update of the screen to
-// work, the elements we identify in STEP 1 need to be told to run that update
-// code when an "event" is fired. That's Pillar 2, event handling. Uncomment
-// this code.
+// work, we need to add a click event listener to the elements we identified in
+// STEP 1. That's Pillar 2, event handling. Uncomment this code:
 
 // for (const glyph of articleHearts) {
 //   glyph.addEventListener("click", likeCallback);

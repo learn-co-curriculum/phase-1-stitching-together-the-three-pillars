@@ -1,26 +1,27 @@
 // We use this code, known as Objects, to control toggling like / unlike status
 
-let glyphStates = {
+const glyphStates = {
   "♡": "♥",
   "♥": "♡"
 };
 
-let colorStates = {
+const colorStates = {
   "red" : "",
   "": "red"
 };
 
 // STEP 1: This code is what lets JavaScript find the elements that we want to make clickable.
 // Without JavaScript, clicking on these heart shapes does nothing. Uncomment
-// this code and refresh the demo page.
+// this code and refresh the demo page. Once you refresh, you can open your console
+// and verify that the articleHearts variable  contains a nodeList with five elements.
 
-// let articleHearts = document.querySelectorAll(".like-glyph");
+// const articleHearts = document.querySelectorAll(".like-glyph");
 
 function likeCallback(e) {
-  let heart = e.target;
+  const heart = e.target;
   mimicServerCall()
     .then(function(serverMessage){
-      // STEP 2: Uncomment the next 3 lines.
+      // STEP 2: Uncomment the 3 lines after the alert.
       // We'll use Pillar 1 (DOM Manipulation) to update the screen and
       // mimic Pillar 3 (Server Communication) to only update the screen if the
       // sending of information to the server succeeds.
@@ -39,9 +40,9 @@ function likeCallback(e) {
 // code when an "event" is fired. That's Pillar 2, event handling. Uncomment
 // this code.
 
-//for (let glyph of articleHearts) {
-  //glyph.addEventListener("click", likeCallback);
-//}
+// for (const glyph of articleHearts) {
+//   glyph.addEventListener("click", likeCallback);
+// }
 
 // STEP 4: 
 

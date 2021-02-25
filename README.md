@@ -45,14 +45,15 @@ working as it should, the action looks like this:
 
 ![working example of favoriting a post][three-pillars-example-working]
 
-Go ahead and open up `index.html` in your browser. To do this, make sure you're
-in the directory where this README lives in your terminal. If you're on a Mac,
-run `open index.html` and if you're using Windows, run `explorer.exe
-index.html`. If that doesn't work, you can open the file directly from Chrome.
-Choose `Open file...` from the `File` menu, navigate to the directory where this
-README is located, and open the file.
+Go ahead and open up `index.html` in your browser. To do this, first go to your
+terminal and make sure you're in the directory where this README lives. If
+you're on a Mac, run `open index.html` and if you're using Windows, run
+`explorer.exe index.html`. If that doesn't work, you can open the file directly
+from Chrome. Choose `Open file...` from the `File` menu, navigate to the
+directory where this README is located, and open the file.
 
-Your experience will look something like this:
+If you try clicking one of the "Like" buttons on the page, your experience will
+look something like this:
 
 ![non-working example of favoriting a post][three-pillars-example-not-working]
 
@@ -66,6 +67,10 @@ the code that locates the page element we want — in this case, the heart.
 
 ![demonstration of un-commenting step one][three-pillars-example-comment-step-one]
 
+Once you uncomment the line of code and refresh the page, you can use the
+console to verify that the articleHearts variable contains a nodeList with five
+elements.
+
 ### Cause a Change to Given Code So That Server-Side Behavior Is Stubbed in
 
 Next, in your `demo.js` file, find the comments describing Step 2, which sets up
@@ -73,24 +78,29 @@ the mock server communication (our third pillar):
 
 ![demonstration of un-commenting step two][three-pillars-example-comment-step-two]
 
+Once you've uncommented out the code and refreshed the page, try clicking one of
+the "Like" buttons again. You'll see that it's still not working. That's because
+we've uncommented the code that mocks our communication with the server, but we
+haven't yet told JavaScript to listen for the "click" event.
+
 ### Cause a Change to Given Code So That Event Listening Has an Effect
 
-Now, find Step 3 in the commented code. It's time to bring in the second pillar,
+Find Step 3 in the commented code. It's time to bring in the second pillar,
 events:
 
 ![demonstration of un-commenting step three][three-pillars-example-comment-step-three]
 
-We've activated all the parts of our code that stitch in the three pillars of
-front-end web programming. Let's go back to your browser and see what Simple
-Liker looks like in action.
+We've activated all the parts of our code that stitch together the three pillars
+of front-end web programming. Let's go back to your browser and see what Simple
+Liker looks like in action. You should now be able to like and unlike each post.
 
 ![working example of favoriting a post][three-pillars-example-working]
 
 ## Conclusion
 
-We're starting to see how the pieces work together now! Now we're ready to dive
-into the individual pillars and learn more about how each one functions. First, we
-take on manipulating the DOM.
+We're starting to see how the pieces work together now! Which means we're ready
+to dive into the individual pillars and learn more about how each one functions.
+We'll start by reviewing how to manipulate the DOM.
 
 [three-pillars-example-working]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-02.gif
 [three-pillars-example-not-working]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-01.gif

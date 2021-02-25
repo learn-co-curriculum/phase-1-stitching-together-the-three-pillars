@@ -12,9 +12,7 @@ const colorStates = {
 
 // STEP 1: The line of code below is what lets JavaScript find the elements that
 // we want to make clickable. Without JavaScript, clicking on these heart shapes
-// does nothing. Uncomment the code and refresh the demo page. Once you refresh, 
-// you can use the console to verify that the articleHearts variable contains a 
-// nodeList with five elements.
+// does nothing. Uncomment the code and refresh the demo page. 
 
 // const articleHearts = document.querySelectorAll(".like-glyph");
 

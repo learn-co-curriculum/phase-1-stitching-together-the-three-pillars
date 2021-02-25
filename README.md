@@ -104,6 +104,6 @@ We'll start by reviewing how to manipulate the DOM.
 
 [three-pillars-example-working]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-02.gif
 [three-pillars-example-not-working]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-01.gif
-[three-pillars-example-comment-step-one]: https://curriculum-content.s3.amazonaws.com/phase-1/step1.gif
-[three-pillars-example-comment-step-two]: https://curriculum-content.s3.amazonaws.com/phase-1/step2.gif
-[three-pillars-example-comment-step-three]: https://curriculum-content.s3.amazonaws.com/phase-1/step3.gif
+[three-pillars-example-comment-step-one]: https://curriculum-content.s3.amazonaws.com/phase-1/stitching-together-the-three-pillars/step1.gif
+[three-pillars-example-comment-step-two]: https://curriculum-content.s3.amazonaws.com/phase-1/stitching-together-the-three-pillars/step2.gif
+[three-pillars-example-comment-step-three]: https://curriculum-content.s3.amazonaws.com/phase-1/stitching-together-the-three-pillars/step3.gif

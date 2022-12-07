@@ -1,3 +1,5 @@
+require ( './helpers.js' );
+
 describe("index.js", () => {
   it("exists", () => {
     expect(testVar).to.exist
